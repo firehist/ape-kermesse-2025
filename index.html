@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecteur Kermesse 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-kermesse"></div>
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <div class="player-column">
+          <div class="cover-container">
+            <img id="cover" src="" alt="Couverture" />
+          </div>
+          <div class="track-info">
+            <h2 id="track-title">Titre</h2>
+            <h3 id="track-artist">Artiste</h3>
+            <p id="track-album">Album</p>
+          </div>
+          <audio id="audio" controls>
+            Votre navigateur ne supporte pas l'audio HTML5.
+          </audio>
+          <div class="controls">
+            <button id="prev">⏮️</button>
+            <button id="play">▶️</button>
+            <button id="pause">⏸️</button>
+            <button id="next">⏭️</button>
+          </div>
+        </div>
+        <div class="playlist-column">
+          <h3>Playlist</h3>
+          <ul id="playlist"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html> 
